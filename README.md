@@ -1,2 +1,2 @@
 # Dota2-match-extraction
-get dota2 match meta data from ...
+get matches data from Dota2
