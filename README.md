@@ -1,2 +1,3 @@
 # Dota2-match-extraction
-get matches data from Dota2
+get matches Dota2 matches data from [opendota](https://www.opendota.com/)
+
