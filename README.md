@@ -16,7 +16,7 @@ get matches Dota2 matches data from [opendota](https://www.opendota.com/)
 - Optimize code
 
 ## Schema
-![schema](assets/data-ER.png)
+![schema](assets/data_ER.png)
 
 ## Authors
 
