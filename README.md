@@ -1,5 +1,7 @@
 # Dota2-match-extraction
 
+Extract and Transform data from Dota2, then loaded into csv for ..
+
 get matches Dota2 matches data from [opendota](https://www.opendota.com/)
 
 
