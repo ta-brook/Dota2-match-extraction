@@ -7,7 +7,7 @@ get matches Dota2 matches data from [opendota](https://www.opendota.com/)
 
 ## Roadmap
 
-- Move all file to github
+- Move all file to github *Done*
 
 - create datasets in kaggle (TI11 dataset)
 
