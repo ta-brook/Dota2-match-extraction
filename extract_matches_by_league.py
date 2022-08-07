@@ -2,11 +2,12 @@ import requests
 import json
 import time
 
-save_path = 'raw_json/'
+save_path = 'data/raw_json/'
 
 CREDENTIAL = ''
 
-dota_data = json.load(open('readable_json_TI_key/TI10_matches.json', encoding='utf-8'))
+dota_data = json.load(
+    open('readable_json_TI_key/TI10_matches.json', encoding='utf-8'))
 t = time.time()
 for i, game in enumerate(dota_data):
     time.sleep(1)
@@ -30,7 +31,7 @@ print(data)
 print(type(data))
 
 with open('dumps/heroes_data.json', 'w', encoding='utf-8') as f:
-        json.dump(data, f, ensure_ascii=False, indent=4)
+    json.dump(data, f, ensure_ascii=False, indent=4)
 
 # teams
 URL = f"https://api.opendota.com/api/teams"
@@ -40,5 +41,4 @@ print(data)
 print(type(data))
 
 with open('dumps/teams_data.json', 'w', encoding='utf-8') as f:
-        json.dump(data, f, ensure_ascii=False, indent=4)
-
+    json.dump(data, f, ensure_ascii=False, indent=4)
